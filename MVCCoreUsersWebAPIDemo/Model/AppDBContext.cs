@@ -11,7 +11,7 @@ namespace MVCCoreUsersWebAPIDemo.Model
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //modelBuilder.Seed();
+            modelBuilder.Seed();
         }
         public DbSet<User> Users { get; set; }
 
